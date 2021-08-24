@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Thực hành loops</h1>
+<p id="demo"></p>
+<script>
+    let text=""
+    for(let i=0;i<5;i++){
+        text+="The number is "+ i +"<br>";
+    }
+    document.getElementById("demo").innerHTML=text;
+    let total=0;
+    let num=prompt("Nhập vào số yêu thích");
+    num=parseInt(num);
+    for (let i=0;i<=num;i++){
+        total+=i;
+    }
+    alert(total);
+</script>
+</body>
+</html>
